@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <title>
+            BeYou
+        </title>   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Caveat&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css">
+        <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" rel="stylesheet" type="text/css">
+
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .img-fluid{
+                max-width: 100%;
+                height: 100%;
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        
+        <i class="material-icons md-18" id="basket">local_mall</i>    
+        <div class="topnav navbar-right" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <a href="#"> FAQs |</a>
+                <a href="#">Bundles |</a>
+                <a href="#">CBD range |</a>
+                <a href="#"> Sleep mist |</a>
+                <a href="#"> Menstrual cycle |</a>
+                <a href="#"> Chafing Cream |</a>
+                <a href="#"> Monthly Patch |</a>
+                <a href="#"> Shop all |</a>
+            </a> 
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <!-- Header -->
+
+        <div class="container">
+            <img class="header" src="images/BYV3 Header Group Desktop_a.jpg" alt="Three Women" width="100%" height="400px">
+            <div>
+                <div class="bottom-right">
+                    <h1>natural solutions</h1>
+                    <p>for those everyday problems
+                        that
+                        <b>no-one</b>
+                        talks about.
+                    </p>
+                    <button class="button"><a href="#">Shop Now</a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Carousel -->
+
+        <div class="owl-carousel owl-theme">
+            <div class="item1">
+                <div id="left">
+                    <img src="images/Hand%20San%20Feature_a.png" class="img-fluid" alt="Hand Sanitiser" style="width:170px; height:350px;">
+                </div>
+                <div id="right">
+                    <img src="images/Beyou%20Logo-White.png" class="img-fluid" id="central" alt="Be You Logo" style="width:166px; height:41px;">
+                    <p class="text-car">'Accesible, affordable & fast delivery'</p>
+                    <button class="button-car"><a href="#">Hand sanitiser</a></button>
+                </div>
+            </div>
+
+            <div class="item2">
+                <div id="left">
+                    <img src="images/Anti-Chafing.png" class="img-fluid" alt="Anti-Chafing" style="width:170px; height:350px;">
+                </div>
+                <div id="right">
+                    <img src="images/Grazia%20Logo-White.png" class="img-fluid" id="central" alt="Grazia Logo" style="width:166px; height:41px;">
+                    <p class="text-car">'prevent the dreaded summer thigh chafing'</p>
+                    <button class="button-car1"><a href="#">Chafing cream</a></button>
+                </div>
+            </div>
+
+            <div class="item3">
+                <div id="left">
+                    <img src="images/Menstrual%20Cup%20Medium.png" class="img-fluid" alt="Menstrual Cup" style="width:170px; height:350px;">
+                </div>
+                <div id="right">
+                    <img src="images/Womenshealth%20Logo-white.png" class="img-fluid" id="central" alt="Womens health Logo" style="width:166px; height:41px;">
+                    <p class="text-car">'prevent the dreaded summer thigh chafing'</p>
+                    <button class="button-car3"><a href="#">Menstrual cup</a></button>
+                </div>
+            </div>
+
+        </div>
+        <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
+        <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+        </script>
+
+        <!-- Text using Bootstrap -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h3 class="the-new-wave-in-heal"> the new wave in healthy living</h3>
+
+                </div>
+                <div class="col-lg-5">
+                    <p class="lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur justo nulla, ac rutrum massa malesuada in. Nam suscipit a nisi nec.</p>  
+                </div>
+                <div class="col-lg-2">
+                    <span class="l-text">‘As seen in’</span>
+                    <img class="logo-glamour-green" src="images/Glamour%20Logo-Teal.png" alt="Glamour Logo"> 
+                </div>
+            </div>
+        </div>
+
+         <!-- Carousel two -->
+        <div class="owl-carousel owl-theme" >
+            <div class="item4">
+                <div id="left1">
+                    <img src="images/CBD%20Bath%20Salts.png" class="img-fluid1" alt="Bath Salts" style="width:80px; height:150px;">
+                </div>
+                <div id="right1">
+                    <h3 class="small-header">Easy to use CBD <br> bath salts</h3>
+                    <p class="lorem-ipsum-dolor-si-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="button-car4"><a href="#">CBD salts</a></button>
+                </div>
+            </div>
+
+            <div class="item4">
+                <div id="left1">
+                    <img src="images/Berry%20Oral%20Spray%20Box%20600mg.png" class="img-fluid1" alt="Berry" style="width:80px; height:150px;">
+                </div>
+                <div id="right1">
+                    <h3 class="small-header">Our most popular <br> CBD</h3>
+                    <p class="lorem-ipsum-dolor-si-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="button-car4"><a href="#">CBD drops</a></button>
+                </div>
+            </div>
+
+            <div class="item4">
+                <div id="left1">
+                    <img src="images/Muscle%20Balm%20Tub.png" class="img-fluid1" alt="Muscle Balm" style="width:80px; height:150px;">
+                </div>
+                <div id="right1">
+                    <h3 class="small-header">Easy to apply CBD <br> balm</h3>
+                    <p class="lorem-ipsum-dolor-si-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="button-car4"><a href="#">CBD balm</a></button>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:4
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
